@@ -2,10 +2,10 @@
 Utilizing AWS Serverless Services I have created a basic web application utilizing GET from a DynamoDB database. I intend on expanding this project for future use.
 
 I first began by creating a REST API within API Gateway
-	- For testing purposes I made the Integration Type Mock, this will change to Lambda later.
-	- Edited Change Error format to JSON
-	- Created a "Dev" stage for deployment
-	- Deployed API, a link will be created based on the resource name
+- For testing purposes I made the Integration Type Mock, this will change to Lambda later.
+- Edited Change Error format to JSON
+- Created a "Dev" stage for deployment
+- Deployed API, a link will be created based on the resource name
 
 To invoke the API, I utilized Lambda for serverless compute functions.
 - In order to allow proper access, an IAM role is necessary
